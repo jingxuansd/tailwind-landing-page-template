@@ -30,16 +30,13 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+              “The API reliability and data accuracy are unmatched. We've reduced our market research time by 80% and <em className="italic text-gray-500">increased our profit margins</em> thanks to the real-time insights.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Alex Chen</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+                Head of Data Science at CommerceFlow
               </a>
             </div>
           </div>
