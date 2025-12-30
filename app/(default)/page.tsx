@@ -1,6 +1,11 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Koay - #1 API for E-commerce Trends & Competitor Data",
+  description:
+    "Unlock the power of e-commerce data with Koay. Track prices, monitor competitors, and analyze global market trends in real-time with our reliable API.",
+  keywords: ["Koay", "Data API", "E-commerce API", "Price Monitoring", "Trend Analysis", "Competitor Intelligence"],
+  alternates: {
+    canonical: "https://koay.top",
+  },
 };
 
 import Hero from "@/components/hero-home";
@@ -17,6 +22,29 @@ export default function Home() {
       <FeaturesPlanet />
       <LargeTestimonial />
       <Cta />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Koay Data API",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Cloud",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+            },
+            "description": "Real-time e-commerce data access, competitor monitoring, and market trend analysis via a powerful API.",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "120",
+            },
+          }),
+        }}
+      />
     </>
   );
 }
