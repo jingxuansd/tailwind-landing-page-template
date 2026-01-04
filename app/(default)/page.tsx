@@ -1,5 +1,7 @@
 export const metadata = {
-  title: "Koay - #1 API for E-commerce Trends & Competitor Data",
+  title: {
+    absolute: "Koay: #1 E-commerce Trends & Competitor Data API",
+  },
   description:
     "Unlock the power of e-commerce data with Koay. Track prices, monitor competitors, and analyze global market trends in real-time with our reliable API.",
   keywords: ["Koay", "Data API", "E-commerce API", "Price Monitoring", "Trend Analysis", "Competitor Intelligence"],
